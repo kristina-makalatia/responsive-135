@@ -2,7 +2,8 @@
 /* section#1 styles */
 .block {
     width: 250px;
-    height: 300px;
+    max-height: 300px;
+    height: 100%;
 }
 .block:nth-child(even) {
     background-color: yellow;
