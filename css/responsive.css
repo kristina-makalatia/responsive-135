@@ -1,0 +1,83 @@
+/* practice #1 - width */
+/* @media (max-width: 1024px) {
+    .block {
+        width: 150px;
+    }
+}
+@media (max-width: 768px) {
+    .block:last-child {
+        display:none;
+    }
+}
+@media (max-width: 480px) {
+    .block:last-child {
+        display: block;
+        background-color: red;
+    }
+} */
+
+/* practice #2 - direction */
+/* @media (max-width: 1024px) {
+    .wraper-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .block:nth-child(2) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .block:nth-child(3) {
+        margin-bottom: 20px;
+    }
+} */
+
+/* practice #3 - wrap */
+/* @media (max-width: 750px) {
+    .block:nth-child(1),
+    .block:nth-child(2) {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 500px) {
+    .wraper-block {
+        justify-content: center;
+    }
+    .block:nth-child(3) {
+        margin-bottom: 30px;
+    }
+} */
+
+
+/* practice #4 - % */
+@media (max-width: 1000px) {
+    .block {
+        width: 48%;
+    }
+    .block:nth-child(1),
+    .block:nth-child(2) {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 480px) {
+    .wraper-block {
+        justify-content: center;
+    }
+    .block {
+        width: 70%;
+    }
+    .block:nth-child(3) {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 620px) {
+    .wraper {
+        height: auto;
+        /* height: 100%; */
+    }
+}
+@media (max-width: 420px) {
+    .box {
+        margin-bottom: 10px;
+    }
+}
